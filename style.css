@@ -4,6 +4,7 @@
     font-family: 'Poppins', sans-serif; 
     box-sizing: border-box;
 }
+
 body{
     background: #090909;
     color: #fff;
@@ -12,7 +13,7 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url()
+    background-image: url(profile.png)
     ;
     background-size: cover;
     background-position: center;
@@ -36,6 +37,11 @@ nav{
     width: 140px;
 }
 
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+    flex-basis: 35%;
+}
 nav ul li {
     display: inline-block;
     list-style: none;
@@ -110,17 +116,10 @@ header-text h3{
 }
 
 .About-col-1{
-    flex-basis: 20%;
-    margin-left: 10px;
+    flex-basis: 100%;
+    margin-left: 0px;
 }
-.About-col-1 img{
-    width: 50%;
-    border-radius: 15px;
-    margin-right: 100px;
-    
-    
 
-}
 .About-col-2{
     flex-basis: 60%;
 }
@@ -139,6 +138,7 @@ form {
     font-size: 100%;
     padding: 20px;
     width: 200px;
+    
   }
   
   #form-prompt {
@@ -171,5 +171,9 @@ form {
     border-right: 10px;
 
 
+}
+
+@media only screen and (max-width: 600px){
+    
 }
 
