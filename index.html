@@ -98,15 +98,36 @@
         <div id="Skill">
             <div class="intro">
                 <h1 class="sub-title">Programing skills</h1>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+                <script>
+                $(document).ready(function(){
+                $("#hide").click(function(){
+                    $("p").hide();
+                });
+                $("#show").click(function(){
+                    $("p").show();
+                });
+                });
+                </script>
+                </head>
+                <body>
 
-                <input type="checkbox" id="Problem solving" name="Problem solving" value="Problem solving">
-<label for="Problem solving"> Problem solving</label><br>
-<input type="checkbox" id="Curiosity" name="Curiosity" value="Curiosity">
-<label for="Curiosity"> Curiosity</label><br>
-<input type="checkbox" id="Time management" name="Time management" value="Time management">
-<label for="Time management"> Time management</label><br>
-<input type="checkbox" id="Teamwork and conflict resolution" name="Teamwork and conflict resolution" value="Teamwork and conflict resolution">
-<label for="Teamwork and conflict resolution"> Teamwork and conflict resolution</label><br>
+                <p>Click to see my programing skill.</p>
+
+                <button id="hide">Hide</button>
+                <button id="show">Show</button>
+                    
+                    <p>
+                    <input type="checkbox" id="Problem solving" name="Problem solving" value="Problem solving">
+                    <label for="Problem solving"> Problem solving</label><br>
+                    <input type="checkbox" id="Curiosity" name="Curiosity" value="Curiosity">
+                    <label for="Curiosity"> Curiosity</label><br>
+                    <input type="checkbox" id="Time management" name="Time management" value="Time management">
+                    <label for="Time management"> Time management</label><br>
+                    <input type="checkbox" id="Teamwork and conflict resolution" name="Teamwork and conflict resolution" value="Teamwork and conflict resolution">
+                    <label for="Teamwork and conflict resolution"> Teamwork and conflict resolution</label><br>
+                    </p>
+                </div>
             </div>
         </div>
         
